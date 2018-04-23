@@ -1,0 +1,8 @@
+# Client and server validation within ASPxGridView's templates
+
+
+<p>This example demonstrates how to perform validation of editors placed within ASPxGridView's templates. Here both the integrated validation via ValidationSettings.RegularExpression and a custom validation on Validation events are used.</p><p>Another approach used here is the multi-row editing, which means that the grid allows you to instantly edit several row values. Thereby, the grid's edit form is not used in the example at all. (The multi-row editing approach is also described in example E324.)</p><p>It's important that validation in this example is performed both on the client and server, since we cannot guarantee that the client sends us valid data. All validation rules are implemented both on the client and server, but the client validation serves only as an input helper. The final word always rests with the server.</p><p>The end user inputs some values into text boxes and clicks the Save button. Then, the client validation is performed. In a regular case, if some editors contain invalid values, the end user will be informed about the mistakes he/she made, and a postback won't be sent to the server. However, even if the client validation passes despite that some of the editors contain invalid values, the server will validate all the editors, and only valid editor data will be sent to the database (in this example, a simple List<Record> stored in the Session is used as a data storage).</p>
+
+<br/>
+
+
