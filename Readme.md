@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DataProvider.cs](./CS/Data/DataProvider.cs) (VB: [DataProvider.vb](./VB/Data/DataProvider.vb))
+* [Record.cs](./CS/Data/Record.cs) (VB: [Record.vb](./VB/Data/Record.vb))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+<!-- default file list end -->
 # Client and server validation within ASPxGridView's templates
 
 
