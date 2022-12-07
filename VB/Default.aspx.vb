@@ -3,8 +3,7 @@ Imports System
 Imports System.Text
 Imports System.Collections.Generic
 Imports System.Web.UI
-Imports DevExpress.Web.ASPxEditors
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 
 Namespace GridViewCustomValidationInTemplates
 	Partial Public Class _Default

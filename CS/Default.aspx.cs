@@ -2,8 +2,7 @@ using System;
 using System.Text;
 using System.Collections.Generic;
 using System.Web.UI;
-using DevExpress.Web.ASPxEditors;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 
 namespace GridViewCustomValidationInTemplates {
     public partial class _Default : System.Web.UI.Page {
